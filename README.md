@@ -43,6 +43,7 @@ MCP41010::~MCP41010()
  * gain = 1 + code/(256-code)
  *
  * 1 <= gain <= 256
+
  *******************************************/
 
 void MCP41010::SetGain(int gain)
@@ -51,7 +52,8 @@ void MCP41010::SetGain(int gain)
  * set potentiometer
  *
  * resistanceCode: 0 to 255
- * 255 is close to max of the sesistor
+ * 255 is close to max of the resistor
+
  *******************************************/
 
 void MCP41010::SetPotentiometer(unsigned char resistanceCode)
