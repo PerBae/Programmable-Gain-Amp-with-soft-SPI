@@ -21,12 +21,14 @@ You will need to modify them to match your hardware.
  * constructor
  *
  *******************************************/
+
 MCP41010::MCP41010()
 
 /*******************************************
  * destructor
  *
  *******************************************/
+
 MCP41010::~MCP41010()
 
 /*******************************************
@@ -42,6 +44,7 @@ MCP41010::~MCP41010()
  *
  * 1 <= gain <= 256
  *******************************************/
+
 void MCP41010::SetGain(int gain)
 
 /*******************************************
@@ -50,6 +53,7 @@ void MCP41010::SetGain(int gain)
  * resistanceCode: 0 to 255
  * 255 is close to max of the sesistor
  *******************************************/
+
 void MCP41010::SetPotentiometer(unsigned char resistanceCode)
 
 
